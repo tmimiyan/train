@@ -16,9 +16,11 @@ function changeColore(){
 </script>
 </head>
 <body>
+<div>
 <input  id="titleText" type="text" name="" size="1" class="fc" style="text-align:center" ><input id="titleTexts" type="text" name="" size="4" class="fe" style="text-align:center" >
 
 <br><div class="tt"><input  id="titleTexte" type="text" name="" size="11" style="text-align:center" class="fd"><input id="titleTexts" type="text" name="" size="20" style="text-align:center"  class="fs"></div>
+</div>
 
 <br><div>
 <select id="textcolor" class="ft">
@@ -33,6 +35,7 @@ function changeColore(){
 </div>
 
 <style  type="text/css">
+@media (min-width: 750px){
 .fc { color: #FFFFFF;
       font-size: 289%;
       border: none;
@@ -58,6 +61,34 @@ function changeColore(){
       font-size: 100%;
       border: none;
       vertical-align: bottom; }
+}
+@media (max-width: 750px){
+.fc { color: #FFFFFF;
+      font-size: 289%;
+      border: none;
+      vertical-align: bottom;
+      line-height: 50px; }
+
+.fe { background: #000000;
+      color: #FFFFFF;
+      font-size: 292%;
+      border: none;
+      vertical-align: bottom;
+      line-height: 50px; }
+
+.ft { font-size: 200%; }
+
+.fs { background: #000000;
+      font-size: 98%;
+      color: #FFFFFF;
+      border: none;
+      vertical-align: bottom; }
+
+.fd { color: #FFFFFF;
+      font-size: 98%;
+      border: none;
+      vertical-align: bottom; }
+}
 </style>
 
 </body>
