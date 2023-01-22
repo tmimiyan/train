@@ -2,7 +2,6 @@
 <html lang="ja">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>方向幕ジェネレーター</title>
 	<script>
 function changeColor(){
@@ -17,8 +16,11 @@ function changeColore(){
 </script>
 </head>
 <body>
-<input  id="titleText" type="text" name="" size="1" class="fc" style="text-align:center" ><input id="titleTexts" type="text" name="" size="5" class="fe" style="text-align:center" >
+<input  id="titleText" type="text" name="" size="1" class="fc" style="text-align:center" ><input id="titleTexts" type="text" name="" size="4" class="fe" style="text-align:center" >
 
+<br><div class="tt"><input  id="titleTexte" type="text" name="" size="11" style="text-align:center" class="fd"><input id="titleTexts" type="text" name="" size="20" style="text-align:center"  class="fs"></div>
+
+<br><div>
 <select id="textcolor" class="ft">
 <option value="#df4e39">特急・急行</option>
 <option value="#ff7f27">快速</option>
@@ -28,8 +30,7 @@ function changeColore(){
 </select>
 
 <button onclick="changeColor(),changeColore()" class="ft">OK</button>
-
-<br><div class="tt"><input  id="titleTexte" type="text" name="" size="11" style="text-align:center" class="fd"><input id="titleTexts" type="text" name="" size="23" style="text-align:center"  class="fs"></div>
+</div>
 
 <style  type="text/css">
 .fc { color: #FFFFFF;
@@ -40,12 +41,12 @@ function changeColore(){
 
 .fe { background: #000000;
       color: #FFFFFF;
-      font-size: 293%;
+      font-size: 292%;
       border: none;
       vertical-align: bottom;
       line-height: 50px; }
 
-.ft { font-size: 300%; }
+.ft { font-size: 200%; }
 
 .fs { background: #000000;
       font-size: 100%;
