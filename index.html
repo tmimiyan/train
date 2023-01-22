@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UDF-8">
+	<title>方向幕ジェネレーター</title>
+	<script>
+function changeColor(){
+  document.getElementById("titleText").style.background=document.getElementById("textcolor").value;
+}
+function changeColors(){
+  document.getElementById("titleTexts").style.color=document.getElementById("textcolors").value;
+}
+function changeColore(){
+  document.getElementById("titleTexte").style.background=document.getElementById("textcolor").value;
+}
+</script>
+</head>
+<body>
+<input  id="titleText" type="text" name="" size="1" class="fc" style="text-align:center" ><input id="titleTexts" type="text" name="" size="5" class="fe" style="text-align:center" >
+
+<select id="textcolor" class="ft">
+<option value="#df4e39">特急・急行</option>
+<option value="#ff7f27">快速</option>
+<option value="#0032e8">準急</option>
+<option value="#009900">区急</option>
+<option value="#808080">各停</option>
+</select>
+
+<button onclick="changeColor(),changeColore()" class="ft">OK</button>
+
+<br><div class="tt"><input  id="titleTexte" type="text" name="" size="11" style="text-align:center" class="fd"><input id="titleTexts" type="text" name="" size="23" style="text-align:center"  class="fs"></div>
+
+<style  type="text/css">
+.fc { color: #FFFFFF;
+      font-size: 289%;
+      border: none;
+      vertical-align: bottom;
+      line-height: 50px; }
+
+.fe { background: #000000;
+      color: #FFFFFF;
+      font-size: 293%;
+      border: none;
+      vertical-align: bottom;
+      line-height: 50px; }
+
+.ft { font-size: 300%; }
+
+.fs { background: #000000;
+      font-size: 100%;
+      color: #FFFFFF;
+      border: none;
+      vertical-align: bottom; }
+
+.fd { color: #FFFFFF;
+      font-size: 100%;
+      border: none;
+      vertical-align: bottom; }
+</style>
+
+</body>
+</html>
